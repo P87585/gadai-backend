@@ -1,0 +1,8 @@
+{
+"username" : "anam02",
+"password" : "anam00001",
+"email" : "anam@gmail.com",
+"fullname" : "anam 001",
+"nomorHandphone" : "08777667",
+"tanggalLahir" : "1984-01-01"
+}
