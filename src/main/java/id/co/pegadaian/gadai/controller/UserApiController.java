@@ -24,13 +24,13 @@ public class UserApiController {
     
     @Autowired private UserDao userDao;
     
-    @PreAuthorize("hasAuthority('USER_VIEW')")
+//    @PreAuthorize("hasAuthority('USER_VIEW')")
     @GetMapping("/user")
     public Page<User> semuaUser(Pageable page){
         return userDao.findAll(page);
     }
     
-    @PreAuthorize("hasAuthority('USER_EDIT')")
+//    @PreAuthorize("hasAuthority('USER_EDIT')")
     @PostMapping("/user")
     @ResponseStatus(HttpStatus.CREATED)
     public void userBaru(@RequestBody @Valid User u, HttpServletRequest req){
