@@ -42,3 +42,12 @@ create table s_role_permission(
     foreign key (id_permission) references s_permission(id),
     foreign key (id_role) references s_role(id)
 );
+
+create table stl (
+    id varchar(36),
+    harga_emas decimal(19,2) not null,
+    harga_perak decimal(19,2) not null,
+    tanggal_berlaku date,
+    keterangan varchar(255),
+    primary key (id)
+);

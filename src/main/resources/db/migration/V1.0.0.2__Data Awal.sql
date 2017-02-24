@@ -44,3 +44,18 @@ values ('r002', 'p002');
 
 update s_user set password='$2a$10$i8rKKswq.cv1AImFFdr36eZzc66X0HA3WB015X5zROYjVvsFzMe2y';
 commit;
+
+insert into stl (id, harga_emas, harga_perak, tanggal_berlaku, keterangan) 
+values ('h1', 550, 200, '2017-01-01','harga h1');
+
+insert into stl (id, harga_emas, harga_perak, tanggal_berlaku, keterangan) 
+values ('h2', 550, 200, '2017-02-01','harga h2');
+
+insert into stl (id, harga_emas, harga_perak, tanggal_berlaku, keterangan) 
+values ('h3', 550, 200, '2017-03-01','harga h3');
+
+insert into stl (id, harga_emas, harga_perak, tanggal_berlaku, keterangan) 
+values ('h4', 550, 200, '2017-04-01','harga h4');
+
+
+
